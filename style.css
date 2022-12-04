@@ -30,6 +30,16 @@ h4 {
     padding-top: 3rem;
 }
 
+.about-me{
+    justify-content: flex;
+    display: flex;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 20px;
+    padding-top: 3rem;
+}
+
 
 
 
