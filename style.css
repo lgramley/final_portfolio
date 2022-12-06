@@ -40,14 +40,14 @@ h4 {
     text-align: left !important;
   }
 
-.btn:hover,
+/* .btn:hover,
 .btn:focus{
     filter: brightness(120%);  
 }
 
 .btn-lg{
     background-color: rgb(59, 99, 230);
-}
+} */
 
 .about-me{
     justify-content: flex;
@@ -82,7 +82,9 @@ h4 {
     flex-wrap: wrap;
     text-align: center;
     padding: 1rem;
+  }
 
-}
+
+  
 
 
