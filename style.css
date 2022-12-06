@@ -1,6 +1,7 @@
 
 body{
-    background-color: #a7bdcc; /*can click to change!*/
+    background-color: #a7bdcc !important;/*can click to change!*/
+    margin: 20px !important;
 
 }
 
@@ -8,6 +9,36 @@ h4 {
     padding-top: 2rem;
 }
 
+* {
+    transition: all .2s ease;
+  }
+  
+  .extra-info {
+    display: none;
+    line-height: 30px;
+    font-size: 12px;
+      position: absolute;
+    top: 0;
+    left: 50px;
+  }
+  
+  .info:hover .extra-info {
+    display: block;
+  }
+  
+  .info {
+    font-size: 20px;
+    padding-left: 5px;
+    width: 20px;
+    border-radius: 15px;
+  }
+  
+  .info:hover {
+    background-color: white;
+    padding: 0 0 0 5px;
+    width: 500px;
+    text-align: left !important;
+  }
 
 .btn:hover,
 .btn:focus{
@@ -16,18 +47,6 @@ h4 {
 
 .btn-lg{
     background-color: rgb(59, 99, 230);
-}
-
-#summary{
-    padding-top: 3rem;
-}
-
-#empathy{
-    padding-top: 3rem;
-}
-
-#storyboard{
-    padding-top: 3rem;
 }
 
 .about-me{
@@ -40,11 +59,30 @@ h4 {
     padding-top: 3rem;
 }
 .img_button{
-    justify-content: flex;
+    justify-content: center;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-wrap: space-around;
+    /* padding: 1rem; */
 }
 
+#react{
+    justify-content: center;
+    display: flex;
+    flex-wrap: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem;
+}
+
+#html{
+    justify-content: center;
+    display: flex;
+    flex-wrap: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem;
+
+}
 
 
